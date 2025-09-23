@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import qrcode from '@/images/qrcode-medivu.co.png'
 
 export default function GuestbookPage() {
@@ -13,7 +14,7 @@ export default function GuestbookPage() {
             We are launching soon. Sign up to get notified when we launch.
           </p>
           <div className="my-10 flex justify-center">
-            <img
+            <Image
               src={qrcode.src}
               alt="Description of image"
               className="h-96 w-96 rounded-2xl bg-white/70 p-3 shadow-lg ring-1 ring-white/90"
