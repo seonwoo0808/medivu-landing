@@ -441,12 +441,12 @@ export default function GuestbookForm() {
         </div>
 
         <div className="mt-6 flex items-center justify-end gap-x-6">
-          <button
-            type="submit"
+          <a
+            href="/guestbook/complete"
             className="w-full rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 sm:w-auto dark:bg-indigo-500 dark:shadow-none dark:focus-visible:outline-indigo-500"
           >
             Save
-          </button>
+          </a>
         </div>
       </form>
     </div>
